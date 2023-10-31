@@ -47,14 +47,17 @@ It's a situational problem but it's there.
 The mods I know that do things like this are the Battlefield 4 44. Magnum (has a gauss barrel), a unique gauss version of the Service Rifle from Deadpool and the FN FAL - SA58 from Wanaming0 (has an electric receiver attachment, the radiation one works fine). Weapons that change the ammo type to 2mm EC instead of just boosting damage work just fine.
 
 ## Requirements
-The mod requires the [Spell Perk Item Distributor (SPID) mod for Fallout 4](https://www.nexusmods.com/fallout4/mods/48365) to make the weapon range, armor piercing, etc changes apply to NPCs as well (they're applied via a hidden perk). If you don't care about that you don't actually need to install it, it will still work for the player and the main damage and ammo changes work for everyone regardless.
+The mod **requires the [Spell Perk Item Distributor (SPID) mod for Fallout 4](https://www.nexusmods.com/fallout4/mods/48365)** to make the weapon range, armor piercing, etc changes apply to NPCs as well (they're applied via a hidden perk). If you don't care about that you don't actually need to install it, it will still work for the player and the main damage and ammo changes work for everyone regardless.
 
 ## Suggested Mods
 - **[Caliber Complex](https://www.nexusmods.com/fallout4/mods/50111?):** I think it's the best ammo mod due to the fact it has real ballistics. Suggested along with its **[Cover Penetration Framework](https://www.nexusmods.com/fallout4/mods/55959)** patch.
   
 - **[Unused Ammo Remover](https://github.com/ReaperAnon/UnusedAmmoRemover):** If you don't like Caliber Complex because it spams your game with ammo, just use my Unused Ammo Remover mod which is another Synthesis patcher. It removes all ammo that is unused in your game both from the leveled list and also from crafting (if you have an ammo crafting mod installed).
+
+- **[Armor Penetration Fix](https://www.nexusmods.com/fallout4/mods/73849):** By default the ammo penetration effect is broken in Fallout 4, so it's suggested you download this as you're probably using some mods along with this that make use of the effect.
   
 - **[Unleveled Commonwealth](https://github.com/ReaperAnon/Unleveled-Commonwealth):** Without some mod to rebalance enemies, weapons will be overpowered in the early game and weak in the late-game. I suggest using my Unleveled Commonwealth mod which is another Synthesis patcher, similar to how SCOURGE works but more compatible and retains relative enemy balancing instead of randomizing NPC stats. Also doesn't require any other mods to function.
 
 ## Credits
+
 ### Mutagen
