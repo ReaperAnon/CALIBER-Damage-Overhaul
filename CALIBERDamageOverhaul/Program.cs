@@ -237,11 +237,11 @@ namespace CALIBERDamageOverhaul
                     dmgIdx.Add(i);
             }
 
-            for (int i = dmgIdx.Count - 1; i >= 0; i--) { // delete all the ones that have "crit" or "double" reasonably behind them
-                if ((dmgIdx[i] - 2 >= 0 && ForbiddenWords.Any(str => words[dmgIdx[i] - 2].Contains(str, StringComparison.OrdinalIgnoreCase))) ||
-                    (dmgIdx[i] - 1 >= 0 && ForbiddenWords.Any(str => words[dmgIdx[i] - 1].Contains(str, StringComparison.OrdinalIgnoreCase)))) {
+            for (int i = dmgIdx.Count - 1; i >= 0; i--) { // delete all the ones that have forbidden words reasonably behind them
+                if (dmgIdx[i] - 1 > 0 && !words[dmgIdx[i] - 1].Contains('.') && ForbiddenWords.Any(str => words[dmgIdx[i] - 1].Contains(str, StringComparison.OrdinalIgnoreCase)))
                     dmgIdx.RemoveAt(i);
-                }
+                else if (dmgIdx[i] - 2 > 0 && !words[dmgIdx[i] - 2].Contains('.') && ForbiddenWords.Any(str => words[dmgIdx[i] - 2].Contains(str, StringComparison.OrdinalIgnoreCase)))
+                    dmgIdx.RemoveAt(i);
             }
 
             if (deleteEntry) {
@@ -326,7 +326,7 @@ namespace CALIBERDamageOverhaul
                 bool isPositive = floatProp!.Value > 0;
 
                 floatProp.Property = Weapon.Property.AimModelRecoilMinDegPerShot;
-                floatProp.Value = (float)(0.3 * Math.Pow(Math.Abs(floatProp.Value), 0.5));
+                floatProp.Value = (float)(floatProp.Value < 0 ? 0.35 : 0.25 * Math.Pow(Math.Abs(floatProp.Value), 0.5));
                 if (isPositive)
                     floatProp.Value = -floatProp.Value;
             }
