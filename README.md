@@ -47,7 +47,9 @@ The mod requires the [Spell Perk Item Distributor (SPID) mod for Fallout 4](http
 
 ## Suggested Mods
 - **[Caliber Complex](https://www.nexusmods.com/fallout4/mods/50111?):** I think it's the best ammo mod due to the fact it has real ballistics. Suggested along with its **[Cover Penetration Framework](https://www.nexusmods.com/fallout4/mods/55959)** patch.
+  
 - **[Unused Ammo Remover](https://github.com/ReaperAnon/UnusedAmmoRemover):** If you don't like Caliber Complex because it spams your game with ammo, just use my Unused Ammo Remover mod which is another Synthesis patcher. It removes all ammo that is unused in your game both from the leveled list and also from crafting (if you have an ammo crafting mod installed).
+  
 - **[Unleveled Commonwealth](https://github.com/ReaperAnon/Unleveled-Commonwealth):** Without some mod to rebalance enemies, weapons will be overpowered in the early game and weak in the late-game. I suggest using my Unleveled Commonwealth mod which is another Synthesis patcher, similar to how SCOURGE works but more compatible and retains relative enemy balancing instead of randomizing NPC stats. Also doesn't require any other mods to function.
 
 ## Credits
