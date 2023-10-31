@@ -11,7 +11,9 @@ The mod can be found either by searching for CALIBER on the patcher list or adde
 # Details
 A dynamically generated mod to change how ballistic weapon damage works in Fallout 4.
 
-The bulk of the damage is dependent on the ammunition itself instead of being a statistic that is part of the weapon itself, making weapons that shoot the same ammunition perform similarly to each other with minor variation in-between. There are some blanket changes to weapon types to differentiate them a bit more as well, such as rifles having more range by default and dealing slightly higher damage (so for example, an SMG firing a 9mm cartridge will have more damage than a handgun, somewhat trying to simulate barrel length contributing to muzzle velocity). The default settings can of course be changed and are optional.
+The bulk of the damage is dependent on the ammunition itself instead of being a statistic that is part of the weapon itself, making weapons that shoot the same ammunition perform similarly to each other with minor variation in-between.
+
+There are some blanket changes to weapon types to differentiate them a bit more as well, such as rifles having more range by default and dealing slightly higher damage (so for example, an SMG firing a 9mm cartridge will have more damage than a handgun, somewhat trying to simulate barrel length contributing to muzzle velocity). The default settings can of course be changed and are optional.
 
 ## Functionality
 The mod changes the damage of all ballistic weapons to only deal 10% of their normal damage, leaving a bit of differentiation between weapons and transferring most of the damage to the actual ammunition being used.
@@ -40,7 +42,9 @@ The settings menu is really slow, it didn't crash if you click on it, you just n
 As stated earlier, the attachment descriptions aren't always perfect. I didn't use AI to regenerate them so sometimes you might find something that isn't quite right, but I tested it with like 50 weapon mods installed and it worked pretty well. They're not hard to fix in xEdit.
 
 The attachment changes aren't absolutely perfect because it's impossible to differentiate what the author's intent was. What this means is that for example a "gauss" attachment that greatly increases damage will end up decreasing recoil instead.
-It's a situational problem but it's there. The mods I know that do things like this are the Battlefield 4 44. Magnum (has a gauss barrel), a unique gauss version of the Service Rifle from Deadpool and the FN FAL - SA58 from Wanaming0 (has an electric receiver attachment, the radiation one works fine). Weapons that change the ammo type to 2mm EC instead of just boosting damage work just fine.
+It's a situational problem but it's there.
+
+The mods I know that do things like this are the Battlefield 4 44. Magnum (has a gauss barrel), a unique gauss version of the Service Rifle from Deadpool and the FN FAL - SA58 from Wanaming0 (has an electric receiver attachment, the radiation one works fine). Weapons that change the ammo type to 2mm EC instead of just boosting damage work just fine.
 
 ## Requirements
 The mod requires the [Spell Perk Item Distributor (SPID) mod for Fallout 4](https://www.nexusmods.com/fallout4/mods/48365) to make the weapon range, armor piercing, etc changes apply to NPCs as well (they're applied via a hidden perk). If you don't care about that you don't actually need to install it, it will still work for the player and the main damage and ammo changes work for everyone regardless.
