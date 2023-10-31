@@ -1,0 +1,1126 @@
+{
+  "BallisticPistols": {
+    "RangeMult": 1.0,
+    "DamageMult": 1.0,
+    "AccuracyMult": 1.0,
+    "ArmorPen": 1.0
+  },
+  "BallisticRifles": {
+    "RangeMult": 2.0,
+    "DamageMult": 1.1,
+    "AccuracyMult": 1.2,
+    "ArmorPen": 1.15
+  },
+  "BallisticShotguns": {
+    "RangeMult": 1.5,
+    "DamageMult": 1.0,
+    "AccuracyMult": 1.3,
+    "ArmorPen": 1.0
+  },
+  "BallisticSnipers": {
+    "RangeMult": 3.0,
+    "DamageMult": 1.4,
+    "AccuracyMult": 1.5,
+    "ArmorPen": 1.3
+  },
+  "BallisticHeavyWeapons": {
+    "RangeMult": 2.0,
+    "DamageMult": 1.0,
+    "AccuracyMult": 1.15,
+    "ArmorPen": 1.15
+  },
+  "EnergyWeapons": {
+    "RangeMult": 2.0,
+    "DamageMult": 1.0,
+    "AccuracyMult": 1.15,
+    "ArmorPen": 1.15
+  },
+  "AmmoEntries": [
+    {
+      "AmmoLink": "01F276:Fallout4.esm",
+      "AmmoDamage": 27.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "01F278:Fallout4.esm",
+      "AmmoDamage": 32.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "01F279:Fallout4.esm",
+      "AmmoDamage": 120.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "01F66A:Fallout4.esm",
+      "AmmoDamage": 22.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "01F66B:Fallout4.esm",
+      "AmmoDamage": 40.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "01F66C:Fallout4.esm",
+      "AmmoDamage": 22.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "01F673:Fallout4.esm",
+      "AmmoDamage": 120.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "04CE87:Fallout4.esm",
+      "AmmoDamage": 18.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "09221C:Fallout4.esm",
+      "AmmoDamage": 55.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "18ABDF:Fallout4.esm",
+      "AmmoDamage": 120.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "02C8B1:DLCCoast.esm",
+      "AmmoDamage": 45.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "037897:DLCNukaWorld.esm",
+      "AmmoDamage": 35.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000800:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 25.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000803:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 20.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000806:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 28.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000809:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 22.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00080C:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 18.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00080F:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 38.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000812:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 22.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000815:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 21.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000818:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 18.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00081B:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 23.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00081E:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 29.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000821:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 27.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000822:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 25.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000827:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 12.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00082A:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 28.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00082E:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 50.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000831:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 22.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000834:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 21.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000837:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 25.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00083A:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 32.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00083D:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 26.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000840:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 50.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000843:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 23.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000846:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 20.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000849:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 21.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00084C:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 26.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00084F:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 31.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000852:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000855:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 20.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000858:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 20.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00085C:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 110.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00085D:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 100.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000865:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 90.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000868:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 140.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00086B:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 160.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00086F:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000873:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 31.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000876:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 32.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000879:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 36.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00087C:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 32.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00087F:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 36.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000882:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 38.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000885:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 25.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000888:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 37.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00088B:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 26.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00088E:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 36.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000891:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000894:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 36.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000897:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 37.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00089A:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 32.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00089D:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008A0:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 38.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008A3:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 38.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008A6:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 41.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008A9:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 38.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008AC:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 33.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008AF:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008B4:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 44.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008B7:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 42.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008BA:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 39.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008BD:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008C0:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008C3:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 36.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008C6:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 42.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008CA:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 45.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008CE:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 52.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008D1:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 58.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008D4:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 95.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008D7:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 35.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008DA:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 70.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008DD:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 45.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008E0:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 70.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008E3:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 70.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008E6:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 90.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008E9:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 52.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008EC:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 65.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008EF:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 35.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008F2:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 47.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008F5:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 92.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008F8:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 61.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0008FB:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 41.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000900:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 36.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000903:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 37.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000906:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 51.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000909:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 52.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00090C:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 50.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00090F:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 43.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000912:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 39.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000915:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 41.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000918:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 50.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00091B:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 37.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00091E:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 51.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000921:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 43.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000924:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 39.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000927:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 39.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00092A:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 55.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00092D:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 38.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000930:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 33.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000933:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 38.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000936:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 37.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000939:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 95.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00093C:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 82.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00093F:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000942:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 45.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000945:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 40.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000948:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 45.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00094B:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 38.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000951:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 200.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000952:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 130.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000953:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 75.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000955:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 105.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000956:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000957:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 36.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000958:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 36.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000959:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 100.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00095A:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 75.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00095B:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 37.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00095C:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 35.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00095D:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 39.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00095E:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00095F:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 40.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000960:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 90.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000962:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 45.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000963:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 42.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000964:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 37.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000965:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 39.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000966:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 35.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000967:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 40.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000969:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 78.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "00096A:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 95.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0009AA:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 51.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0009AD:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 36.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0009B0:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 36.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0009B3:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 111.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0009B6:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 41.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0009B9:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 102.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0009BC:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 36.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000A4C:CALIBER-COMPLEX.esm",
+      "AmmoDamage": 65.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000800:Munitions-Additional Ammo.esp",
+      "AmmoDamage": 20.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000801:Munitions-Additional Ammo.esp",
+      "AmmoDamage": 20.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000802:Munitions-Additional Ammo.esp",
+      "AmmoDamage": 41.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000815:Munitions-Additional Ammo.esp",
+      "AmmoDamage": 70.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000816:Munitions-Additional Ammo.esp",
+      "AmmoDamage": 35.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000817:Munitions-Additional Ammo.esp",
+      "AmmoDamage": 39.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006C8:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 10.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006C9:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 13.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006CA:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 21.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006CB:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006CC:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 90.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006D6:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 34.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006D7:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 45.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006D8:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 37.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006E2:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 43.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006E3:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 50.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006E4:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 200.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0006EE:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 25.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000716:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 20.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000717:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 32.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000796:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 90.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0007A1:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 45.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "0007A2:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 32.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000FAA:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 31.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000FAC:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 100.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000FAE:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 50.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000FAF:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 25.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000FB0:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 18.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000FB1:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 18.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000FB2:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 45.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    },
+    {
+      "AmmoLink": "000FCA:Munitions - An Ammo Expansion.esl",
+      "AmmoDamage": 45.0,
+      "TargetToKill": "Null",
+      "ShotsToKill": 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Nickname": "CALIBERDamageOverhaul",
+  "Visibility": "Visible",
+  "OneLineDescription": "Ammunition and attachment-based damage overhaul.",
+  "LongDescription": "An ammunition and attachment-based damage overhaul for Fallout 4.\r\n\r\nFor proper usage instructions please read the description here: https://github.com/ReaperAnon/CALIBER-Damage-Overhaul",
+  "PreferredAutoVersioning": "Default",
+  "RequiredMods": [],
+  "TargetedReleases": [
+    "Fallout4"
+  ]
+}
