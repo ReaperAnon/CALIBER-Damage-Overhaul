@@ -3,7 +3,7 @@
 ### [Synthesis Install](https://github.com/Mutagen-Modding/Synthesis/wiki/Installation)
 ### [How to Use](https://github.com/Mutagen-Modding/Synthesis/wiki/Typical-Usage#adding-patchers)
 
-The mod can be found either by searching for WeaponSkillOverhaul on the patcher list or added via the .synth file found [here](https://github.com/ReaperAnon/CALIBER-Damage-Overhaul/releases/tag/meta).
+The mod can be found either by searching for CALIBER on the patcher list or added via the .synth file found [here](https://github.com/ReaperAnon/CALIBER-Damage-Overhaul/releases/tag/meta).
 
 ### Consider donating if you enjoy my work:
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A6P3CRK)
