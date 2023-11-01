@@ -11,7 +11,7 @@ The mod can be found either by searching for CALIBER on the patcher list or adde
 # Details
 A dynamically generated mod to change how ballistic weapon damage works in Fallout 4.
 
-The bulk of the damage is dependent on the ammunition itself instead of being a statistic that is part of the weapon itself, making weapons that shoot the same ammunition perform similarly to each other with minor variation in-between.
+The bulk of the damage is dependent on the ammunition itself instead of being a statistic that is part of the weapon, making weapons that shoot the same ammunition perform similarly to each other with some minor variations in-between.
 
 There are some blanket changes to weapon types to differentiate them a bit more as well, such as rifles having more range by default and dealing slightly higher damage (so for example, an SMG firing a 9mm cartridge will have more damage than a handgun, somewhat trying to simulate barrel length contributing to muzzle velocity). The default settings can of course be changed and are optional.
 
