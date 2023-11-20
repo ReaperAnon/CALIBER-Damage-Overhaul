@@ -113,7 +113,7 @@ namespace CALIBERDamageOverhaul
                     Conditions = new ExtendedList<PerkCondition>() { condSet },
                     EntryPoint = APerkEntryPointEffect.EntryType.ModConeoffireMult,
                     Modification = PerkEntryPointModifyValue.ModificationType.Multiply,
-                    Value = 1 - ((1 - i == 0 ? Settings.BallisticPistols.AccuracyMult :
+                    Value = 1 - ((i == 0 ? Settings.BallisticPistols.AccuracyMult :
                                 i == 1 ? Settings.BallisticRifles.AccuracyMult :
                                 i == 2 ? Settings.BallisticShotguns.AccuracyMult :
                                 i == 3 ? Settings.BallisticSnipers.AccuracyMult :
