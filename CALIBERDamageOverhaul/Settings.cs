@@ -37,8 +37,8 @@ namespace CALIBERDamageOverhaul
         [Tooltip("Accuracy multiplier for the weapon type.")]
         public float AccuracyMult { get; set; } = 1f;
 
-        [SettingName("Enemy Armor Rating Multiplier")]
-        [Tooltip("Multiplier for enemy armor rating when taking damage from this weapon type.")]
+        [SettingName("Armor Penetration Multiplier")]
+        [Tooltip("Every .1 above 1 is 10% armor penetration.")]
         public float ArmorPen { get; set; } = 1f;
     }
 

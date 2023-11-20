@@ -113,12 +113,12 @@ namespace CALIBERDamageOverhaul
                     Conditions = new ExtendedList<PerkCondition>() { condSet },
                     EntryPoint = APerkEntryPointEffect.EntryType.ModConeoffireMult,
                     Modification = PerkEntryPointModifyValue.ModificationType.Multiply,
-                    Value = i == 0 ? Settings.BallisticPistols.AccuracyMult :
+                    Value = 1 - (1 - i == 0 ? Settings.BallisticPistols.AccuracyMult :
                                 i == 1 ? Settings.BallisticRifles.AccuracyMult :
                                 i == 2 ? Settings.BallisticShotguns.AccuracyMult :
                                 i == 3 ? Settings.BallisticSnipers.AccuracyMult :
                                 i == 4 ? Settings.BallisticHeavyWeapons.AccuracyMult :
-                                Settings.EnergyWeapons.AccuracyMult
+                                Settings.EnergyWeapons.AccuracyMult)
                 };
 
                 PerkEntryPointModifyValue damageEffect = new() {
@@ -152,12 +152,12 @@ namespace CALIBERDamageOverhaul
                     Conditions = new ExtendedList<PerkCondition>() { condSet },
                     EntryPoint = APerkEntryPointEffect.EntryType.ModTargetDamageResistance,
                     Modification = PerkEntryPointModifyValue.ModificationType.Multiply,
-                    Value = 1 - i == 0 ? Settings.BallisticPistols.ArmorPen :
+                    Value = 1 - (1 - i == 0 ? Settings.BallisticPistols.ArmorPen :
                                     i == 1 ? Settings.BallisticRifles.ArmorPen :
                                     i == 2 ? Settings.BallisticShotguns.ArmorPen :
                                     i == 3 ? Settings.BallisticSnipers.ArmorPen :
                                     i == 4 ? Settings.BallisticHeavyWeapons.ArmorPen :
-                                    Settings.EnergyWeapons.ArmorPen
+                                    Settings.EnergyWeapons.ArmorPen)
                 };
 
                 WeaponPerk.Effects.Add(accuracyEffect);
