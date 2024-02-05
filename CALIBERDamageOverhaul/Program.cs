@@ -318,7 +318,7 @@ namespace CALIBERDamageOverhaul
             if (!dmgMultIdx.Any())
                 return;
 
-            if (isAmmoType || weaponModGetter.AttachPoint.Equals(Fallout4.Keyword.ap_gun_Mag)) // if there are damage entries on a magazine attachment
+            if (isAmmoType || weaponModGetter.AttachPoint.Equals(Fallout4.Keyword.ap_gun_Mag)) // if there are damage entries on a magazine attachment or it changes the projectile
                 return;
 
             dmgMultIdx.Reverse();
@@ -338,7 +338,7 @@ namespace CALIBERDamageOverhaul
                     floatProp.Value = -floatProp.Value;
             }
 
-            if(weaponModSetter.Description is not null && !isAmmoType)
+            if(weaponModSetter.Description is not null)
                 weaponModSetter.Description = GetModifiedDescription(weaponModSetter.Description!, isRechamber);
         }
 
