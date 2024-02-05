@@ -293,11 +293,15 @@ namespace CALIBERDamageOverhaul
 
         public static void ReplaceWeaponDamageMods(IPatcherState<IFallout4Mod, IFallout4ModGetter> state, IWeaponModificationGetter weaponModGetter, IAObjectModificationGetter objModGetter)
         {
+            bool isAmmoType = false;
             bool isRechamber = false;
             List<int> dmgMultIdx = new();
             for (int i = 0; i < weaponModGetter.Properties.Count; i++) {
                 if (weaponModGetter.Properties[i].Property == Weapon.Property.Ammo)
                     isRechamber = true;
+
+                if (weaponModGetter.Properties[i].Property == Weapon.Property.OverrideProjectile || weaponModGetter.Properties[i].Property == Weapon.Property.NumProjectiles)
+                    isAmmoType = true;
 
                 if (weaponModGetter.Properties[i] is not IObjectModFloatPropertyGetter<Weapon.Property> floatProp)
                     continue;
@@ -312,6 +316,9 @@ namespace CALIBERDamageOverhaul
             }
 
             if (!dmgMultIdx.Any())
+                return;
+
+            if (isAmmoType || weaponModGetter.AttachPoint.Equals(Fallout4.Keyword.ap_gun_Mag)) // if there are damage entries on a magazine attachment
                 return;
 
             dmgMultIdx.Reverse();
@@ -331,7 +338,7 @@ namespace CALIBERDamageOverhaul
                     floatProp.Value = -floatProp.Value;
             }
 
-            if(weaponModSetter.Description is not null)
+            if(weaponModSetter.Description is not null && !isAmmoType)
                 weaponModSetter.Description = GetModifiedDescription(weaponModSetter.Description!, isRechamber);
         }
 
@@ -455,10 +462,13 @@ namespace CALIBERDamageOverhaul
                 if (isBallistic) {
                     if (!weaponGetter.Ammo.TryResolve(state.LinkCache, out var ammoGetter) || ammoGetter.Damage <= 1)
                         continue;
-
+ 
                     foreach(var weapKeyword in weaponGetter.Keywords.EmptyIfNull())
                     {
                         if (!weapKeyword.TryResolve(state.LinkCache, out var keywordGetter))
+                            continue;
+
+                        if (weapKeyword.Equals(Fallout4.Keyword.ma_CanHaveNullMuzzle))
                             continue;
 
                         if (keywordGetter.Type == Keyword.TypeEnum.ModAssociation)
@@ -482,7 +492,8 @@ namespace CALIBERDamageOverhaul
                 if (weaponModGetter.Properties.Count <= 1) // don't change attachment with just one property (damage modifiers)
                     continue;
 
-                if (weaponModGetter.EditorID?.Contains("ammo", StringComparison.OrdinalIgnoreCase) ?? false) // don't change ammo type attachments
+                if ((weaponModGetter.EditorID?.Contains("ammo", StringComparison.Ordinal) ?? false) ||
+                    (weaponModGetter.EditorID?.Contains("Ammo", StringComparison.Ordinal) ?? false)) // don't change ammo type attachments
                     continue;
 
                 if (!weaponModGetter.TargetOmodKeywords.EmptyIfNull().Any(entry => BallisticModKeywords.Contains(entry))) // don't change attachments that are not for ballistic weapons
